@@ -20,5 +20,5 @@ Both platforms are supported for scanning, making it versatile for different env
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/xploitnik/BasicLFI.git
-   cd BasicLFI
+   git clone https://github.com/xploitnik/basicLFI.git
+   cd basicLFI
