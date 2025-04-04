@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN chmod +x basicLFI.py
 
 # Default command
-CMD ["./basicLFI.py" "./basicLFI.py http target" "basicLFI.py https://target"]
+CMD ["./basicLFI.py" "./basicLFI.py http target" "./basicLFI.py https://target"]
