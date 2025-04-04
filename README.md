@@ -1,6 +1,13 @@
-# BasicLFI - Local File Inclusion Scanner
+## BasicLFI - Local File Inclusion Scanner
 
-**BasicLFI** is a simple Local File Inclusion (LFI) scanner designed to detect LFI vulnerabilities in web applications. It uses common parameter names and customizable payloads to scan target websites for potential LFI vulnerabilities. The tool supports both HTTP and HTTPS protocols, with optional proxy support for stealthy scanning. Results are colorized for better readability and saved to a JSON file for further analysis.
+BasicLFI is a cross-platform tool designed for detecting **Local File Inclusion (LFI)** vulnerabilities. It works on both **Windows** and **Linux** environments. The script uses common parameters to scan web applications for potential LFI issues.
+
+### Supported Platforms
+- **Linux**
+- **Windows**
+
+Both platforms are supported for scanning, making it versatile for different environments.
+
 
 ## Features
 - Scans for common LFI vulnerabilities
